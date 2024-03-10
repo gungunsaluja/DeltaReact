@@ -4,12 +4,17 @@ import "./App.css"
 import {Title} from "./title.jsx";
 import ProductTab from "./ProductTab.jsx";
 
+import MsgBox from "./MsgBox";
 function App(){
   return (
-  
+  <>
+  <MsgBox UserName= "Gungun" TextColor= "orange"/>
+  <MsgBox UserName= "Virat" TextColor= "brown"/>
+  <MsgBox UserName= "Vamika" TextColor= "red"/>
   <ProductTab/>
-  // structure components
-  )
+  {/* // structure components */}
+  </>
+  );
 }
 
 
