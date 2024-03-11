@@ -10,7 +10,7 @@ function App() {
     <>
     <h1>State in react</h1>
     {/* <Counter/> */}
-    <LikeButton/>
+    <Counter/>
     
       
     </>
