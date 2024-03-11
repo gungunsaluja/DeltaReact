@@ -1,16 +1,18 @@
 import "./App.css"
 //import
 
-import {Title} from "./title.jsx";
+// import {Title} from "./title.jsx";
 import ProductTab from "./ProductTab.jsx";
 
-import MsgBox from "./MsgBox";
+// import MsgBox from "./MsgBox";
 function App(){
   return (
   <>
-  <MsgBox UserName= "Gungun" TextColor= "orange"/>
+  {/* <MsgBox UserName= "Gungun" TextColor= "orange"/>
   <MsgBox UserName= "Virat" TextColor= "brown"/>
-  <MsgBox UserName= "Vamika" TextColor= "red"/>
+  <MsgBox UserName= "Vamika" TextColor= "red"/> */}
+  <h2>Blockbuster Deals || Shop Now</h2>
+  
   <ProductTab/>
   {/* // structure components */}
   </>
